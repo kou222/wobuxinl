@@ -37,11 +37,11 @@ noButton.addEventListener("click", function() {
     }
 
     // 图片变化（前 5 次变化）
-    if (clickCount === 1) mainImage.src = "images/shocked.png"; // 震惊
-    if (clickCount === 2) mainImage.src = "images/think.png";   // 思考
-    if (clickCount === 3) mainImage.src = "images/angry.png";   // 生气
-    if (clickCount === 4) mainImage.src = "images/crying.png";  // 哭
-    if (clickCount >= 5) mainImage.src = "images/crying.png";  // 之后一直是哭
+    if (clickCount === 1) mainImage.src = "contents/static/images/shocked.PNG"; // 震惊
+    if (clickCount === 2) mainImage.src = "contents/static/images/think.PNG";   // 思考
+    if (clickCount === 3) mainImage.src = "contents/static/images/angry.PNG";   // 生气
+    if (clickCount === 4) mainImage.src = "contents/static/images/crying.PNG";  // 哭
+    if (clickCount >= 5) mainImage.src = "contents/static/images/crying.PNG";  // 之后一直是哭
 
 });
 
@@ -50,7 +50,7 @@ yesButton.addEventListener("click", function() {
     document.body.innerHTML = `
         <div class="yes-screen">
             <h1 class="yes-text">就知道你不会走的……^^</h1>
-            <img src="images/hug.png" alt="拥抱" class="yes-image">
+            <img src="contents/static/images/hug.png" alt="拥抱" class="yes-image">
         </div>
     `;
 
