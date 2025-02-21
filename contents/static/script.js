@@ -37,11 +37,11 @@ noButton.addEventListener("click", function() {
     }
 
     // 图片变化（前 5 次变化）
-    if (clickCount === 1) mainImage.src = "contents/static/images/shocked.PNG"; // 震惊
-    if (clickCount === 2) mainImage.src = "contents/static/images/think.PNG";   // 思考
-    if (clickCount === 3) mainImage.src = "contents/static/images/angry.PNG";   // 生气
-    if (clickCount === 4) mainImage.src = "contents/static/images/crying.PNG";  // 哭
-    if (clickCount >= 5) mainImage.src = "contents/static/images/crying.PNG";  // 之后一直是哭
+    if (clickCount === 1) mainImage.src = "contents/static/images/shocked.png"; // 震惊
+    if (clickCount === 2) mainImage.src = "contents/static/images/think.png";   // 思考
+    if (clickCount === 3) mainImage.src = "contents/static/images/angry.png";   // 生气
+    if (clickCount === 4) mainImage.src = "contents/static/images/crying.png";  // 哭
+    if (clickCount >= 5) mainImage.src = "contents/static/images/crying.png";  // 之后一直是哭
 
 });
 
